@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form login</title>
+
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Login Form</h1>
+
+      <section id="login-container">
+        <section id="message-container"></section>
+        <div class="input1">
+          <img width="25px" height="25px" src="./Assets/img/email-white.svg" />
+          <input type="text" id="fEmail" placeholder="Email" />
+        </div>
+        <div class="input2">
+          <img
+            width="25px"
+            height="25px"
+            src="./Assets/img/password-white.svg"
+          />
+          <input type="password" id="fPassword" placeholder="Password" />
+        </div>
+        <div class="button">
+          <button onclick="cekLogin()">Login</button>
+          <a class="btn-nav" href="login.html">Refresh</a>
+        </div>
+      </section>
+    </main>
+    <div class="wm">
+      <p>Copyright © 2023 | Divdev</p>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
